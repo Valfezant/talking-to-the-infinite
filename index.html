@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of talking-to-the-infinite</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="IMGs/favicon2.ico"/>
+    <script src="pickfurryscript.js"></script>
+  </head>
+  
+  <body>
+    <div class="centerbox">
+
+      <h2 id="indexTitle"> 
+        To keep a diary is like talking to oneself, and I already do enough of that.  <br>
+        What I want is to talk to the infinite.
+      </h2>
+
+      <p id="goreText">Note: all pages in this website may contain uncensored illustrated gore.</p>
+
+      <div class="indexImages">
+        <div id="meA" onmouseenter="changeAfunction()" onmouseleave="changeBackAfunction()">
+          <p id="meAText"></p>
+          <img src="IMGs/Graphics/hyenaL1_v.png" style="width:100%;height:100%;" id="meAImage">
+          <script>
+            function changeAfunction() 
+            {
+              document.getElementById("meAImage").src = "IMGs/Graphics/hyenaL2_v.png";
+              document.getElementById("meAText").textContent = "I long for the comfort of shadows...";
+            };
+
+            function changeBackAfunction()
+            {
+              document.getElementById("meAImage").src = "IMGs/Graphics/hyenaL1_v.png";
+              document.getElementById("meAText").textContent = "";
+            }
+          </script>
+        </div>
+
+        <div id="meB" onmouseenter="changeBfunction()" onmouseleave="changeBackBfunction()">
+          <p id="meBText"></p>
+          <img src="IMGs/Graphics/hyenaR1_v.png" style="width:100%;height:100%;" id="meBImage">
+          <script>
+            function changeBfunction() 
+            {
+              document.getElementById("meBImage").src = "IMGs/Graphics/hyenaR2_v.png";
+              document.getElementById("meBText").textContent = "...but to connect is a necessity.";
+            };
+
+            function changeBackBfunction()
+            {
+              document.getElementById("meBImage").src = "IMGs/Graphics/hyenaR1_v.png";
+              document.getElementById("meBText").textContent = "";
+            }
+          </script>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="sidebox">
+      <div class="indexThanks">
+        <h2 id="introThanksLine1">Thanks for stopping by</h2>
+        <h3 id="introThanksLine2">- Vale</h3>
+      </div>
+
+      <div class="contentlinks">
+        <h3> <a href="lookat.html">Things you can look at</a></h3>
+        <h3> <a href="read.html">Things you can read</a></h3>
+        <h3> <a href="https://valfezant.itch.io">Things you can play</a> </h3>
+      </div>
+
+      <div class="pickfurry">
+        <!---<h4>Random Furry</h4>-->
+        <span id="furryIndex"> index </span>
+        <span id="furryIndexTotal">0</span>
+        <br>
+        <img src="IMGs/Furries/furry0.png" style="width:65%;height:65%;" id="furryImage">
+        <br>
+        <span id="furryText"> text </span>
+      </div>
+
+      <p id="why"><a href="about.html">?</a></p>
+    </div>
+
+  </body>
+</html>
+
+<!---
+
+  And then what's so different about me? If everybody else does the same thing, feels the same way, 
+  thinks the same thoughts... why do I still feel so hopelessly alone?
+  'Nobody just likes me exists'; isn't that what everyone thinks? But then everybody seems to
+  comparing find some place to belong in, some label to latch onto. I keep vagabonding, knowing only myself,  
+  comparing myself to all and finding little resemblance still.
+  Maybe the problem's with me, after all, but not because I'm 'special'; because I'm only ordinary,
+  and I don't want to accept that.
+  
+  
+
+  [TO DO]
+    (- About me page + link)
+    - Fix scaling issues
+    - Stilise fonts ()
+    (- Rework Writign titles placement)
+    - Add date to displayer?
+    (- Improve furrydispenser)
+    (- guestbook)
+
+    - Expand to more sections
+
+    - Make it so you can click on the image? > (optimise loading)
+    - Uniform drawing icons
+-->
