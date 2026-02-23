@@ -19,11 +19,11 @@ function Furry(index, image, text)
   this.text = text;
 }
     
-var furry1 = new Furry(1, "IMGs/Furries/furry1.png", "The creator");
+var furry1 = new Furry(1, "IMGs/Furries/furry1.png", "The hand");
 var furry2 = new Furry(2, "IMGs/Furries/furry2.png", "Something soured");
 var furry3 = new Furry(3, "IMGs/Furries/furry3.png", "The friend");
 var furry4 = new Furry(4, "IMGs/Furries/furry4.png", "The wolf");
-var furry5 = new Furry(5, "IMGs/Furries/furry5.png", "Agonising attraction");
+var furry5 = new Furry(5, "IMGs/Furries/furry5.png", "He, the Butcher");
 var furry6 = new Furry(6, "IMGs/Furries/furry6.png", "An envious affinity");
 
 var myFurry = new Array(furry1, furry2, furry3, furry4, furry5, furry6);
