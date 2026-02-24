@@ -40,7 +40,7 @@ body{
   padding-bottom:1%;
 
   min-height:100vh;
-  overflow-x:hidden;
+  overflow:hidden;
 
   background-color:#0D0A0D;
 }
@@ -57,7 +57,7 @@ body{
   margin-top: 1%;
   padding:1% 0 0 0;
 
-  width:70%;
+  width:69%;
   /*min-height:100px;
   overflow:auto;*/
   height: 98%;
@@ -154,8 +154,8 @@ body{
   margin:1% 1% 1% 0;
   padding:1% 0 0 1%;
 
-  width:27%;
-  min-height:97%;
+  width:28%;
+  min-height:98%;
   
   overflow:hidden;
   /*block-size: fit-content;
@@ -206,13 +206,13 @@ article>p
 {
   position: absolute;
   margin-top: 1%;
+  margin-bottom: 1%;
   text-align: right;
   right: 9%;
 }
 
 .contentlinks
 {
-
   font-size:1.4vw;
   text-align:center;
 
@@ -227,6 +227,11 @@ article>p
 .contentlinks>a
 {
   text-decoration: none;
+}
+
+.contentlinks>h3
+{
+  margin-top: 1.2%; 
 }
 
 .pickfurry
