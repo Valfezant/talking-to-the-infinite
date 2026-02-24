@@ -40,7 +40,7 @@ body{
   padding-bottom:1%;
 
   min-height:100vh;
-  overflow:hidden;
+  overflow-x:hidden;
 
   background-color:#0D0A0D;
 }
@@ -72,7 +72,7 @@ body{
 
 #indexTitle
 {
-  padding-top: 7%;
+  padding-top: 6%;
   margin-left: 5%;
   margin-right: 5%;
  
